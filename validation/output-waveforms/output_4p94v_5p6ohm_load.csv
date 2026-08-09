@@ -1,0 +1,6 @@
+Measurement,Value,Units,Calculation / source
+Scope-capture output voltage,4.94,V,Value shown in output scope capture
+Resistive load,5.6,ohm,Purchased final test resistor, Yageo SQP500JB-5R6, Digi-Key 5.6W-5-ND
+Calculated load current,0.8821,A,4.94 V / 5.6 ohm
+Calculated load power,4.360,W,4.94 V x 0.8821 A
+Design target current,1.0,A,Not demonstrated by this capture
