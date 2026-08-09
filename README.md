@@ -2,6 +2,8 @@
 
 Bench-validated 5 V 0.5 A offline flyback switch-mode power supply using a custom isolated flyback transformer and a Power Integrations TNY285 TinySwitch controller.
 
+The transformer was custom programmatically calculated and designed with internally developed software. The detailed design inputs, construction recipe, and calculation tools are retained privately; this public repository presents the resulting system and bench validation at a portfolio-safe level.
+
 This repository is organized for GitHub viewing: CSVs, Markdown, PDFs, and JPG images are first-class. Curated source captures and technical assets are preserved under `archive/` and `Appendix/`.
 
 ## Bench Validation Images
@@ -21,6 +23,7 @@ This repository is organized for GitHub viewing: CSVs, Markdown, PDFs, and JPG i
 ## Project Highlights
 
 - Built and validated a custom isolated flyback transformer as part of the prototype
+- Custom transformer calculated and designed programmatically with internally developed software
 - Built and debugged offline flyback prototype from first principles
 - Demonstrated half-amp operating point: approximately 4.94 V output across a 10 ohm load with approximately 494 mA calculated load current.
 - Additional characterization at 5.6 ohm captured approximately 882 mA calculated load current.
