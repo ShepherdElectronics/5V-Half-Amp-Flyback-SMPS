@@ -25,6 +25,7 @@ This repository is organized for GitHub viewing: CSVs, Markdown, PDFs, and JPG i
 - Built and validated a custom isolated flyback transformer as part of the prototype
 - Custom transformer calculated and designed programmatically with internally developed software
 - Built and debugged offline flyback prototype from first principles
+- Hi-potetnial tested to 2kV for 60 seconds and also insulation tested at HV
 - Demonstrated half-amp operating point: approximately 4.94 V output across a 10 ohm load with approximately 494 mA calculated load current.
 - Additional characterization at 5.6 ohm captured approximately 882 mA calculated load current.
 - Measured output behavior and drain stress under bench load
