@@ -1,6 +1,6 @@
 # 5 V 0.5 A Offline Flyback SMPS
 
-Bench-validated 5 V 0.5 A offline flyback switch-mode power supply using a custom hand-wound RM10/I transformer and a Power Integrations TNY285 TinySwitch controller. The transformer is documented as a production-grade prototype component, and the completed hardware package includes the assembled four-layer PCB design. The documented headline result is approximately 494 mA calculated load current; this repository does not claim sustained 1 A operation.
+Bench-validated 5 V 0.5 A offline flyback switch-mode power supply using a custom hand-wound RM10/I transformer and a Power Integrations TNY285 TinySwitch controller. The transformer is documented as a production-grade prototype component, and the completed hardware package includes the assembled four-layer PCB design. The documented headline result is approximately 494 mA calculated load current.
 
 The transformer was custom programmatically calculated and designed with internally developed software. The detailed design inputs, construction recipe, and calculation tools are retained privately; this public repository presents the resulting system and bench validation at a portfolio-safe level.
 
@@ -26,10 +26,10 @@ This repository is organized for GitHub viewing: CSVs, Markdown, PDFs, and JPG i
 - Completed four-layer PCB design and assembly package for the power stage
 - Custom transformer calculated and designed programmatically with internally developed software
 - Built and debugged offline flyback prototype from first principles
-- Hi-potential tested at the documented approximately 1.5 kVAC / 60 s condition and insulation tested at HV
+- Hi-potential tested at the documented approximately 2.0 kVAC / 60 s condition and insulation tested at HV
 - Demonstrated half-amp operating point: approximately 4.94 V output across a 10 ohm load with approximately 494 mA calculated load current.
 - Additional characterization at 5.6 ohm captured approximately 882 mA calculated load current; this is not a sustained or validated 1 A operating claim.
-- Performed transformer insulation and approximately 1.5 kVAC / 60 s HiPot testing as pre-compliance evidence against the applicable insulation and dielectric-strength requirements; this is not certification
+- Performed transformer insulation and approximately 2.0 kVAC / 60 s HiPot testing as pre-compliance evidence against the applicable insulation and dielectric-strength requirements; this is not certification
 - Measured output behavior and drain stress under bench load
 - Captured drain waveform behavior and output waveform behavior
 - Preserved the original scope captures and curated technical source assets
