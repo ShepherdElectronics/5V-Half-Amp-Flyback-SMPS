@@ -50,7 +50,7 @@ This repository is organized for GitHub viewing: CSVs, Markdown, PDFs, and JPG i
 | Additional characterization | 5.6 ohm; about 882 mA calculated |
 | Stepped load sequence | 47 ohm -> 10 ohm -> 5.6 ohm; approximately 105 mA -> 494 mA -> 882 mA at 4.94 V |
 | Peak drain voltage observed | about 344 V max |
-| Insulation / dielectric testing | Transformer insulation review and approximately 1.5 kVAC / 60 s HiPot pre-compliance evidence; not certification |
+| Insulation / dielectric testing | Transformer insulation review and approximately 2.0 kVAC / 60 s HiPot pre-compliance evidence; not certification |
 
 ## Measured versus calculated
 
